@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Shield background -->
+  <path d="M50 5 L90 20 L90 60 Q90 85 50 95 Q10 85 10 60 L10 20 Z" fill="#C8102E"/>
+  <!-- Inner shield border -->
+  <path d="M50 10 L85 23 L85 60 Q85 82 50 91 Q15 82 15 60 L15 23 Z" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <!-- LFC text -->
+  <text x="50" y="52" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#F6EB61" text-anchor="middle">LFC</text>
+  <!-- Year -->
+  <text x="50" y="68" font-family="Georgia, serif" font-size="9" fill="#F6EB61" text-anchor="middle">EST. 1892</text>
+  <!-- Flames at top -->
+  <path d="M35 18 Q38 12 41 18 Q44 10 47 18 Q50 8 53 18 Q56 10 59 18 Q62 12 65 18" stroke="#F6EB61" stroke-width="1.5" fill="none"/>
+</svg>

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-lfc-red: #C8102E;
+  --color-lfc-red-dark: #A50E26;
+  --color-lfc-gold: #F6EB61;
+  --color-surface-900: #0D0D0F;
+  --color-surface-800: #141418;
+  --color-surface-700: #1E1E24;
+  --color-surface-600: #2A2A33;
+  --color-surface-200: #C4C4CF;
+}
+
+@layer base {
+  body {
+    @apply bg-surface-900 text-white antialiased;
+  }
+}
+
+@layer components {
+  .stats-table {
+    @apply w-full text-sm border-collapse;
+  }
+
+  .stats-table thead tr {
+    @apply border-b border-surface-600;
+  }
+
+  .stats-table thead th {
+    @apply px-3 py-2 text-left text-xs font-semibold uppercase tracking-wider text-surface-200;
+  }
+
+  .stats-table tbody tr {
+    @apply border-b border-surface-600/40 hover:bg-surface-700/50 transition-colors;
+  }
+
+  .stats-table tbody tr:nth-child(even) {
+    @apply bg-surface-700/20;
+  }
+
+  .stats-table tbody td {
+    @apply px-3 py-2.5 text-white/90;
+  }
+
+  .lfc-row {
+    @apply bg-lfc-red/10 border-l-2 border-lfc-red font-semibold;
+  }
+
+  .lfc-row:hover {
+    @apply bg-lfc-red/20;
+  }
+
+  .accent-border-left {
+    @apply border-l-4 border-lfc-red pl-4;
+  }
+}
