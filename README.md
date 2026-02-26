@@ -1,3 +1,4 @@
+single prompt test for Claude Code 
 # LFC Stats 2025/26
 
 A personal Liverpool FC statistics site for the 2025/26 season. Built with Next.js 15, TypeScript, and Tailwind CSS.
